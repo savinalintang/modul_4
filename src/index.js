@@ -5,8 +5,10 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 //import Test from './Test';
 //import HelloComponent from './component/HelloComponent';
-import BlogPost from './container/BlogPost/BlogPost';
+//import BlogPost from './container/BlogPost/BlogPost';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import BlogPostMahasiswa from './container/BlogPost/BlogPostMahasiswa';
+
 //import Login from './Login';
 //import Register from './Register';
 
@@ -28,9 +30,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 //ReactDOM.render(<HelloComponent />, document.getElementById('root'));
 //ReactDOM.render(<Login />, document.getElementById('root'));
 //ReactDOM.render(<Register />, document.getElementById('root'));
-ReactDOM.render(
-<BlogPost />, document.getElementById('content'));
-
+//ReactDOM.render(<BlogPost />, document.getElementById('content'));
+ReactDOM.render(<BlogPostMahasiswa />, document.getElementById('content'));
 // ReactDOM.render(
 // <React.StrictMode>
 //    <App />
